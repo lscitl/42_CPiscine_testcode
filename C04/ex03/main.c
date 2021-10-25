@@ -4,6 +4,6 @@ int	ft_atoi(char *str);
 
 int	main(void)
 {
-	printf("%d", ft_atoi("\t\n\f\v--+--+-9942123ase235"));
+	printf("%d\n", ft_atoi("\t\n\f\v--+--+-2147483648"));
 	return (0);
 }

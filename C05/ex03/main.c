@@ -8,13 +8,15 @@ int	main(void)
 
 	i = -3;
 	while (++i < 20)
-	{
-		printf("%d %d %d %d %d\n",
-				ft_recursive_power(0, i),
-				ft_recursive_power(1, i),
-				ft_recursive_power(3, i),
-				ft_recursive_power(5, i),
-				ft_recursive_power(10, i));
-	}
+		printf("%d\n",ft_recursive_power(0, i));
+	i = -3;
+	while (++i < 20)
+		printf("%d\n",ft_recursive_power(1, i));
+	i = -3;
+	while (++i < 20)
+		printf("%d\n",ft_recursive_power(5, i));
+	i = -3;
+	while (++i < 20)
+		printf("%d\n",ft_recursive_power(-3, i));
 	return (0);
 }

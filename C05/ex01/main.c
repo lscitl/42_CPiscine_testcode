@@ -4,5 +4,7 @@ int	ft_recursive_factorial(int nb);
 
 int	main(void)
 {
-	printf("%d", ft_recursive_factorial(5));
+	int i = -5;
+	while (++i < 10)
+		printf("%d\n", ft_recursive_factorial(i));
 }

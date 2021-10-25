@@ -8,7 +8,5 @@ int	main(void)
 
 	i = -3;
 	while (++i < 10)
-	{
 		printf("%d, ", ft_fibonacci(i));
-	}
 }
